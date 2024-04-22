@@ -1,9 +1,15 @@
-import Image from "next/image";
+import Categories from "./components/Categories";
+import PropertyList from "./components/properties/PropertyList";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-     <div>Кращий сервіс з пошуку відпочинку в Карпатах</div>
+    <main className="max-w-[1500] mx-auto px-6">
+      <Categories />
+
+      <div className="mt-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        <PropertyList />
+      </div>
+      
     </main>
   );
 }

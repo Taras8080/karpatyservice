@@ -15,7 +15,7 @@ const Navbar = () => {
                         <Image
                         src='/logo.png'  
                         alt='KarpatyBnb logo' 
-                        width={180}
+                        width={100}
                         height={38}
                         />
                     </Link>
